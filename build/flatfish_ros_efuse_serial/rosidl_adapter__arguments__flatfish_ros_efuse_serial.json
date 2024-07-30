@@ -1,0 +1,16 @@
+{
+  "package_name": "flatfish_ros_efuse_serial",
+  "non_idl_tuples": [
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:msg/Board.msg",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:msg/BoardArray.msg",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:msg/CmdChannel.msg",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:msg/StatusBoard.msg",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:msg/StatusBoardArray.msg",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:msg/StatusChannel.msg",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:srv/DefaultPowerUp.srv",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:srv/ResetBoard.srv",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:srv/SetChannelOn.srv",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:srv/SetChannelsOn.srv",
+    "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial:srv/SetMaxCurrent.srv"
+  ]
+}

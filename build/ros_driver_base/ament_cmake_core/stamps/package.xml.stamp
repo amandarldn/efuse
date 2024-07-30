@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>ros_driver_base</name>
+    <description>
+        This library contains a generic implementation of (i) timeout-based
+        non-blocking I/O and (ii) packet-reassembly code. It allows to write a
+        driver that will timeout on read and/or write, and to generically do
+        packet extraction in the I/O stream.
+    </description>
+    <maintainer email="joao.barros@fieb.org.br">João Paulo</maintainer>
+    <maintainer email="ronaldo.evangelista@fieb.org.br">Ronaldo Evangelista</maintainer>
+    <license>LGPL v2 or later</license>
+    <url>https://github.com/Brazilian-Institute-of-Robotics/ros_driver_base</url>
+    <version>0.0.1</version>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <build_depend>ament_cmake_coverage</build_depend>
+
+    <depend>boost</depend>
+
+    <test_depend>ament_cmake_gtest</test_depend>
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_lint_common</test_depend>
+    <test_depend>google-mock</test_depend>
+
+    <doc_depend>ament_cmake_doxygen</doc_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

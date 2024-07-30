@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flatfish_ros_efuse_serial/msg/BoardArray.msg
+// generated code does not contain a copyright notice
+
+#include "flatfish_ros_efuse_serial/msg/Board.idl"
+
+module flatfish_ros_efuse_serial {
+  module msg {
+    struct BoardArray {
+      sequence<flatfish_ros_efuse_serial::msg::Board> board;
+    };
+  };
+};

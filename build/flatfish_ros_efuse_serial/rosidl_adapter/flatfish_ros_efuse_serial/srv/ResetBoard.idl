@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from flatfish_ros_efuse_serial/srv/ResetBoard.srv
+// generated code does not contain a copyright notice
+
+
+module flatfish_ros_efuse_serial {
+  module srv {
+    struct ResetBoard_Request {
+      int8 board;
+    };
+    struct ResetBoard_Response {
+      int8 error;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/include/**",
+        "/home/amandarln/ros_ws/install/ros_driver_base/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/**",
+        "/home/amandarln/ros_ws/src/ros_driver_base/include/**",
+        "/usr/include/**",
+        "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_generator_cpp/flatfish_ros_efuse_serial/**",
+        "${workspaceFolder}/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++20"
+    }
+  ],
+  "version": 4
+}

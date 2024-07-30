@@ -1,0 +1,40 @@
+# The uri to connect to.
+# io_port: serial:///dev/port_efuse:38400
+io_port: udp://192.168.42.5:49154:49154
+
+# The read timeout in milliseconds
+io_read_timeout: 1000
+
+# The write timeout in milliseconds
+io_write_timeout: 1000
+
+# The status interval in milliseconds
+io_status_interval: 1000
+
+# List of all efuse boards.
+boards:
+# Board 1  
+  - name: "Main_PH_1"
+    id: 1
+    channels:
+      - "Surge Left"                      # 1
+      - "Sway Rear"                       # 2
+      - "Heave Rear"                      # 3
+      - "IMU/Pressure Sensor"             # 4
+      - "PC"                              # 5
+      - "Laser/Leak detection"            # 6
+      - "DVL/Microns/Serial Server/USBL"  # 7
+      - "Thruster Electronics"            # 8
+# Board 2
+  - name: "Main_PH_2"
+    id: 2
+    channels:
+      - "Defective [OFF]"                 # 1
+      - "Sway Front"                      # 2
+      - "Defective [OFF]"                 # 3
+      - "Sensor 4"                        # 4
+      - "Gemini"                          # 5
+      - "Heave Front"                     # 6
+      - "Surge Right"                     # 7
+      - "Thruster Eletronics"             # 8
+  

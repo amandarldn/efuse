@@ -1,0 +1,69 @@
+[0.013s] Invoking command in '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial': AMENT_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble LD_LIBRARY_PATH=/home/amandarln/ros_ws/install/ros_driver_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/amandarln/ros_ws/build/flatfish_ros_efuse_serial -- -j16 -l16
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target EFuseDriver[0m
+[0.087s] [  0%] Built target flatfish_ros_efuse_serial__cpp
+[0.090s] [ 11%] Built target flatfish_ros_efuse_serial__rosidl_generator_c
+[0.090s] [ 11%] [32mBuilding CXX object CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o[0m
+[0.102s] [ 11%] Built target ament_cmake_python_copy_flatfish_ros_efuse_serial
+[0.125s] [ 22%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_cpp
+[0.126s] [ 34%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_c
+[0.126s] [ 45%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_cpp
+[0.128s] [ 57%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_cpp
+[0.128s] [ 68%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_c
+[0.136s] [ 79%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_c
+[0.162s] [ 79%] Built target flatfish_ros_efuse_serial
+[0.185s] [ 80%] Built target flatfish_ros_efuse_serial__py
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_generator_py[0m
+[0.228s] [ 91%] Built target flatfish_ros_efuse_serial__rosidl_generator_py
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_typesupport_c__pyext[0m
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_c__pyext[0m
+[0.260s] [ 92%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_c__pyext
+[0.260s] [ 94%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_c__pyext
+[0.263s] [ 95%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_c__pyext
+[0.451s] running egg_info
+[0.451s] writing flatfish_ros_efuse_serial.egg-info/PKG-INFO
+[0.451s] writing dependency_links to flatfish_ros_efuse_serial.egg-info/dependency_links.txt
+[0.452s] writing top-level names to flatfish_ros_efuse_serial.egg-info/top_level.txt
+[0.455s] reading manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'
+[0.456s] writing manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'
+[0.482s] [ 95%] Built target ament_cmake_python_build_flatfish_ros_efuse_serial_egg
+[0.918s] [ 96%] [32m[1mLinking CXX shared library libEFuseDriver.so[0m
+[0.996s] [ 96%] Built target EFuseDriver
+[1.006s] [35m[1mConsolidate compiler generated dependencies of target EFuseNode[0m
+[1.026s] [ 97%] [32mBuilding CXX object CMakeFiles/EFuseNode.dir/src/EFuseNode.cpp.o[0m
+[3.790s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::setChannelOnCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::SetChannelOn_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::SetChannelOn_Response_<std::allocator<void> > >)[m[K’:
+[3.791s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:114:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.791s]   114 | [01;35m[Kfish_ros_efuse_serial::srv::SetChannelOn::Response> response[m[K) {
+[3.791s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.791s] 
+[3.796s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::setChannelsOnCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::SetChannelsOn_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::SetChannelsOn_Response_<std::allocator<void> > >)[m[K’:
+[3.796s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:121:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.796s]   121 | [01;35m[Kish_ros_efuse_serial::srv::SetChannelsOn::Response> response[m[K) {
+[3.796s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.796s] 
+[3.800s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::setMaxCurrentCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::SetMaxCurrent_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::SetMaxCurrent_Response_<std::allocator<void> > >)[m[K’:
+[3.800s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:132:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.800s]   132 | [01;35m[Kish_ros_efuse_serial::srv::SetMaxCurrent::Response> response[m[K) {
+[3.800s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.800s] 
+[3.804s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::defaultPowerUpCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::DefaultPowerUp_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::DefaultPowerUp_Response_<std::allocator<void> > >)[m[K’:
+[3.804s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:140:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.805s]   140 | [01;35m[Ksh_ros_efuse_serial::srv::DefaultPowerUp::Response> response[m[K) {
+[3.805s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.805s] 
+[3.808s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::resetBoardCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::ResetBoard_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::ResetBoard_Response_<std::allocator<void> > >)[m[K’:
+[3.808s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:151:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.808s]   151 | [01;35m[Katfish_ros_efuse_serial::srv::ResetBoard::Response> response[m[K) {
+[3.808s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.808s] 
+[9.367s] [ 98%] [32m[1mLinking CXX shared library libEFuseNode.so[0m
+[9.713s] [ 98%] Built target EFuseNode
+[9.732s] [ 99%] [32mBuilding CXX object CMakeFiles/ExampleNode.dir/src/ExampleNode.cpp.o[0m
+[9.741s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/ExampleNode.cpp:8:10:[m[K [01;31m[Kfatal error: [m[KEFuseNode.hpp: No such file or directory
+[9.741s]     8 | #include [01;31m[K<EFuseNode.hpp>[m[K
+[9.741s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.741s] compilation terminated.
+[9.742s] gmake[2]: *** [CMakeFiles/ExampleNode.dir/build.make:76: CMakeFiles/ExampleNode.dir/src/ExampleNode.cpp.o] Error 1
+[9.742s] gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/ExampleNode.dir/all] Error 2
+[9.742s] gmake: *** [Makefile:146: all] Error 2
+[9.747s] Invoked command in '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial' returned '2': AMENT_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble LD_LIBRARY_PATH=/home/amandarln/ros_ws/install/ros_driver_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/amandarln/ros_ws/build/flatfish_ros_efuse_serial -- -j16 -l16

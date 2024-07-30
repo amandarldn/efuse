@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flatfish_ros_efuse_serial/msg/CmdChannel.msg
+// generated code does not contain a copyright notice
+
+
+module flatfish_ros_efuse_serial {
+  module msg {
+    typedef boolean boolean__8[8];
+    struct CmdChannel {
+      boolean__8 channel;
+    };
+  };
+};

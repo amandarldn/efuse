@@ -1,0 +1,43 @@
+{
+  "package_name": "flatfish_ros_efuse_serial",
+  "output_dir": "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_typesupport_c/flatfish_ros_efuse_serial",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:msg/Board.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:msg/BoardArray.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:msg/CmdChannel.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:msg/StatusBoard.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:msg/StatusBoardArray.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:msg/StatusChannel.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:srv/DefaultPowerUp.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:srv/ResetBoard.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:srv/SetChannelOn.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:srv/SetChannelsOn.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial:srv/SetMaxCurrent.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/msg/Board.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/msg/BoardArray.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/msg/CmdChannel.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/msg/StatusBoard.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/msg/StatusBoardArray.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/msg/StatusChannel.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/srv/DefaultPowerUp.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/srv/ResetBoard.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/srv/SetChannelOn.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/srv/SetChannelsOn.idl",
+    "/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial/rosidl_adapter/flatfish_ros_efuse_serial/srv/SetMaxCurrent.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

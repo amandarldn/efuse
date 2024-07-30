@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/board__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/board__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/board_array__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/board_array__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/cmd_channel__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/cmd_channel__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/status_board__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/status_board__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/status_board_array__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/status_board_array__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/status_channel__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/status_channel__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/default_power_up__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/default_power_up__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/reset_board__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/reset_board__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/set_channel_on__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/set_channel_on__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/set_channels_on__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/set_channels_on__type_support.cpp.o.d"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/set_max_current__type_support.cpp.o"
+  "CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/set_max_current__type_support.cpp.o.d"
+  "libflatfish_ros_efuse_serial__rosidl_typesupport_cpp.pdb"
+  "libflatfish_ros_efuse_serial__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/board__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/board_array__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/cmd_channel__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/status_board__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/status_board_array__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/msg/status_channel__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/default_power_up__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/reset_board__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/set_channel_on__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/set_channels_on__type_support.cpp"
+  "rosidl_typesupport_cpp/flatfish_ros_efuse_serial/srv/set_max_current__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

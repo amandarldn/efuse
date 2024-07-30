@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from flatfish_ros_efuse_serial/srv/SetChannelOn.srv
+// generated code does not contain a copyright notice
+
+
+module flatfish_ros_efuse_serial {
+  module srv {
+    struct SetChannelOn_Request {
+      int8 board;
+
+      int8 channel;
+
+      boolean state;
+    };
+    struct SetChannelOn_Response {
+      int8 error;
+    };
+  };
+};

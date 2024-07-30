@@ -1,0 +1,5 @@
+int8 board
+int8 channel
+float64 value
+---
+int8 error

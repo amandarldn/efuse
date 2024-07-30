@@ -1,0 +1,16 @@
+In file included from [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseDriver.cpp:11[m[K:
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/EFuseDriver.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kros_driver_base/driver.hpp: No such file or directory
+   18 | #include [01;31m[K"ros_driver_base/driver.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/EFuseDriver.dir/build.make:76: CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/EFuseDriver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:9[m[K:
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/EFuseNode.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+   18 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/EFuseNode.dir/build.make:76: CMakeFiles/EFuseNode.dir/src/EFuseNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/EFuseNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,42 @@
+# The uri to connect to.
+# io_port: serial:///dev/port_efuse:38400
+io_port: serial:///dev/ttyUSB0:38400
+# io_port: udp://192.168.42.6:49165:49165
+
+# The read timeout in milliseconds
+io_read_timeout: 1000
+
+# The write timeout in milliseconds
+io_write_timeout: 1000
+
+# The status interval in milliseconds
+io_status_interval: 1000
+
+# List of all efuse boards.
+boards:
+# Board 1  
+  - name: "M1_PH_1"
+    id: 1
+    channels:
+      - "P1_CH0"                          # 1
+      - "P1_CH1"                          # 2
+      - "P1_CH2"                          # 3
+      - "P1_CH3"                          # 4
+      - "P1_CH4"                          # 5
+      - "P1_CH5"                          # 6
+      - "P1_CH6"                          # 7
+      - "P1_CH7"                          # 8
+
+# Board 2
+  - name: "M2_PH_2"
+    id: 2
+    channels:
+      - "P2_CH0"                          # 1
+      - "P2_CH1"                          # 2
+      - "P2_CH2"                          # 3
+      - "P2_CH3"                          # 4
+      - "P2_CH4"                          # 5
+      - "P2_CH5"                          # 6
+      - "P2_CH6"                          # 7
+      - "P2_CH7"                          # 8
+  

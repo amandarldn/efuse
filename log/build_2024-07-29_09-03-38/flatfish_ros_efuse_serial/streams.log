@@ -1,0 +1,77 @@
+[0.013s] Invoking command in '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial': AMENT_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble LD_LIBRARY_PATH=/home/amandarln/ros_ws/install/ros_driver_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/amandarln/ros_ws/src/flatfish_ros_efuse_serial -DCMAKE_INSTALL_PREFIX=/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial
+[0.028s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.184s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.228s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.232s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.240s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.279s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.354s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.357s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.643s] -- Found ros_driver_base: 0.0.1 (/home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/cmake)
+[0.645s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.970s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.536s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.565s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.565s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.566s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.586s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.601s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.601s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include>
+[1.601s] -- Configured cppcheck exclude dirs and/or files: 
+[1.602s] -- Added test 'lint_cmake' to check CMake code style
+[1.604s] -- Added test 'uncrustify' to check C / C++ code style
+[1.604s] -- Configured uncrustify additional arguments: 
+[1.604s] -- Added test 'xmllint' to check XML markup files
+[1.606s] -- Configuring done
+[1.697s] -- Generating done
+[1.700s] -- Build files have been written to: /home/amandarln/ros_ws/build/flatfish_ros_efuse_serial
+[1.710s] Invoked command in '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial' returned '0': AMENT_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble LD_LIBRARY_PATH=/home/amandarln/ros_ws/install/ros_driver_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/amandarln/ros_ws/src/flatfish_ros_efuse_serial -DCMAKE_INSTALL_PREFIX=/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial
+[1.712s] Invoking command in '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial': AMENT_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble LD_LIBRARY_PATH=/home/amandarln/ros_ws/install/ros_driver_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/amandarln/ros_ws/build/flatfish_ros_efuse_serial -- -j16 -l16
+[1.766s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_generator_c[0m
+[1.775s] [  0%] [32mBuilding CXX object CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o[0m
+[1.775s] [  0%] Built target flatfish_ros_efuse_serial__cpp
+[1.775s] [  1%] [32mBuilding CXX object CMakeFiles/EFuseNode.dir/src/EFuseNode.cpp.o[0m
+[1.784s] [ 12%] Built target flatfish_ros_efuse_serial__rosidl_generator_c
+[1.788s] [ 12%] Built target ament_cmake_python_copy_flatfish_ros_efuse_serial
+[1.793s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_typesupport_cpp[0m
+[1.794s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_cpp[0m
+[1.795s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_cpp[0m
+[1.800s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_typesupport_c[0m
+[1.804s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_c[0m
+[1.808s] [35m[1mConsolidate compiler generated dependencies of target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_c[0m
+[1.821s] [ 23%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_c
+[1.827s] [ 35%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_cpp
+[1.827s] [ 46%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_cpp
+[1.830s] [ 57%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_c
+[1.834s] [ 69%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_cpp
+[1.844s] [ 80%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_c
+[1.868s] [ 80%] Built target flatfish_ros_efuse_serial
+[1.876s] In file included from [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseDriver.cpp:11[m[K:
+[1.877s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/EFuseDriver.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kros_driver_base/driver.hpp: No such file or directory
+[1.877s]    18 | #include [01;31m[K"ros_driver_base/driver.hpp"[m[K
+[1.877s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.877s] compilation terminated.
+[1.878s] gmake[2]: *** [CMakeFiles/EFuseDriver.dir/build.make:76: CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o] Error 1
+[1.878s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/EFuseDriver.dir/all] Error 2
+[1.878s] gmake[1]: *** Waiting for unfinished jobs....
+[1.893s] [ 81%] Built target flatfish_ros_efuse_serial__py
+[2.124s] running egg_info
+[2.125s] writing flatfish_ros_efuse_serial.egg-info/PKG-INFO
+[2.125s] writing dependency_links to flatfish_ros_efuse_serial.egg-info/dependency_links.txt
+[2.125s] writing top-level names to flatfish_ros_efuse_serial.egg-info/top_level.txt
+[2.129s] reading manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'
+[2.130s] writing manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'
+[2.157s] In file included from [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:9[m[K:
+[2.157s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/EFuseNode.hpp:23:10:[m[K [01;31m[Kfatal error: [m[Kflatfish_ros_efuse_serial/msg/board.hpp: No such file or directory
+[2.157s]    23 | #include [01;31m[K<flatfish_ros_efuse_serial/msg/board.hpp>[m[K
+[2.157s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.157s] compilation terminated.
+[2.161s] gmake[2]: *** [CMakeFiles/EFuseNode.dir/build.make:76: CMakeFiles/EFuseNode.dir/src/EFuseNode.cpp.o] Error 1
+[2.161s] gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/EFuseNode.dir/all] Error 2
+[2.166s] [ 81%] Built target ament_cmake_python_build_flatfish_ros_efuse_serial_egg
+[2.167s] gmake: *** [Makefile:146: all] Error 2
+[2.171s] Invoked command in '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial' returned '2': AMENT_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble LD_LIBRARY_PATH=/home/amandarln/ros_ws/install/ros_driver_base/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/amandarln/ros_ws/build/flatfish_ros_efuse_serial -- -j16 -l16

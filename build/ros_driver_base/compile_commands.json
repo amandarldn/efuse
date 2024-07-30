@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include  -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/ros_driver_base.dir/src/bus.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/bus.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/src/bus.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include  -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/ros_driver_base.dir/src/driver.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/driver.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/src/driver.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include  -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/ros_driver_base.dir/src/exceptions.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/exceptions.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/src/exceptions.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include  -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/ros_driver_base.dir/src/io_listener.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/io_listener.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/src/io_listener.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include  -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/ros_driver_base.dir/src/io_stream.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/io_stream.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/src/io_stream.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include  -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/ros_driver_base.dir/src/tcp_driver.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/tcp_driver.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/src/tcp_driver.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include  -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/ros_driver_base.dir/src/test_stream.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/test_stream.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/src/test_stream.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include  -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/ros_driver_base.dir/src/timeout.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/timeout.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/src/timeout.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include -isystem /opt/ros/humble/src/gtest_vendor/include  -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/test_test_stream_gtest.dir/test/test_stream_gtest.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_stream_gtest.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/test/test_stream_gtest.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include  -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/test_driver.dir/test/suite.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/suite.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/test/suite.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include  -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/test_driver.dir/test/test_driver.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_driver.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/test/test_driver.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include  -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/test_driver.dir/test/test_test_stream.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_test_stream.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/test/test_test_stream.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include  -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/test_tcp_read.dir/test/test_tcp_read.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_tcp_read.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/test/test_tcp_read.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include  -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/test_tcp_write.dir/test/test_tcp_write.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_tcp_write.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/test/test_tcp_write.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include  -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/test_udp_read.dir/test/test_udp_read.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_udp_read.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/test/test_udp_read.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base",
+  "command": "/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include  -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/test_udp_write.dir/test/test_udp_write.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_udp_write.cpp",
+  "file": "/home/amandarln/ros_ws/src/ros_driver_base/test/test_udp_write.cpp"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base/gtest",
+  "command": "/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include  -O0 -ggdb -g -pthread -mtune=native -fPIC -Wno-missing-field-initializers -Werror -Wextra -Wpedantic -Wno-null-dereference -std=gnu++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /opt/ros/humble/src/gtest_vendor/src/gtest-all.cc",
+  "file": "/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc"
+},
+{
+  "directory": "/home/amandarln/ros_ws/build/ros_driver_base/gtest",
+  "command": "/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include  -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc",
+  "file": "/opt/ros/humble/src/gtest_vendor/src/gtest_main.cc"
+}
+]

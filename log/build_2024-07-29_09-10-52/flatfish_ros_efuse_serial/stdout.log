@@ -1,0 +1,47 @@
+[  0%] Built target flatfish_ros_efuse_serial__cpp
+[  0%] [32mBuilding CXX object CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o[0m
+[ 11%] Built target flatfish_ros_efuse_serial__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_copy_flatfish_ros_efuse_serial
+[ 23%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_cpp
+[ 45%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_cpp
+[ 45%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_c
+[ 57%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_cpp
+[ 68%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_c
+[ 79%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_c
+[ 79%] Built target flatfish_ros_efuse_serial
+[ 80%] Built target flatfish_ros_efuse_serial__py
+[ 81%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/msg/_board_array_s.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/msg/_board_s.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/msg/_cmd_channel_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/msg/_status_board_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/msg/_status_board_array_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/srv/_default_power_up_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/msg/_status_channel_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/srv/_set_channels_on_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/srv/_set_max_current_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/srv/_reset_board_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_py.dir/rosidl_generator_py/flatfish_ros_efuse_serial/srv/_set_channel_on_s.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/flatfish_ros_efuse_serial/libflatfish_ros_efuse_serial__rosidl_generator_py.so[0m
+[ 91%] Built target flatfish_ros_efuse_serial__rosidl_generator_py
+[ 92%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flatfish_ros_efuse_serial/_flatfish_ros_efuse_serial_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flatfish_ros_efuse_serial/_flatfish_ros_efuse_serial_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flatfish_ros_efuse_serial/_flatfish_ros_efuse_serial_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+running egg_info
+writing flatfish_ros_efuse_serial.egg-info/PKG-INFO
+writing dependency_links to flatfish_ros_efuse_serial.egg-info/dependency_links.txt
+writing top-level names to flatfish_ros_efuse_serial.egg-info/top_level.txt
+reading manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'
+writing manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'
+[ 94%] Built target ament_cmake_python_build_flatfish_ros_efuse_serial_egg
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/flatfish_ros_efuse_serial/flatfish_ros_efuse_serial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/flatfish_ros_efuse_serial/flatfish_ros_efuse_serial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/flatfish_ros_efuse_serial/flatfish_ros_efuse_serial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 95%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_c__pyext
+[ 95%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_c__pyext
+[ 96%] [32m[1mLinking CXX shared library libEFuseDriver.so[0m
+[ 96%] Built target EFuseDriver
+[ 97%] [32mBuilding CXX object CMakeFiles/EFuseNode.dir/src/EFuseNode.cpp.o[0m
+[ 98%] [32m[1mLinking CXX shared library libEFuseNode.so[0m
+[ 98%] Built target EFuseNode
+[ 99%] [32mBuilding CXX object CMakeFiles/ExampleNode.dir/src/ExampleNode.cpp.o[0m

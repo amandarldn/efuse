@@ -1,0 +1,10 @@
+In file included from [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/EFuseDriver.hpp:19[m[K,
+                 from [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseDriver.cpp:11[m[K:
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/DataTypes.hpp:17:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/time.hpp: No such file or directory
+   17 | #include [01;31m[K<rclcpp/time.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/EFuseDriver.dir/build.make:76: CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/EFuseDriver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

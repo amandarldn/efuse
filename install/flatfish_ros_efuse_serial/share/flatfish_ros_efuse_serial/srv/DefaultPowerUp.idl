@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from flatfish_ros_efuse_serial/srv/DefaultPowerUp.srv
+// generated code does not contain a copyright notice
+
+#include "flatfish_ros_efuse_serial/msg/CmdChannel.idl"
+
+module flatfish_ros_efuse_serial {
+  module srv {
+    struct DefaultPowerUp_Request {
+      int8 board;
+
+      flatfish_ros_efuse_serial::msg::CmdChannel command;
+    };
+    struct DefaultPowerUp_Response {
+      int8 error;
+    };
+  };
+};

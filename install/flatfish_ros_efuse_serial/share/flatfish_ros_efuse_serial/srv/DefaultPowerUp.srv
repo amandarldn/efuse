@@ -1,0 +1,4 @@
+int8 board
+CmdChannel command
+---
+int8 error

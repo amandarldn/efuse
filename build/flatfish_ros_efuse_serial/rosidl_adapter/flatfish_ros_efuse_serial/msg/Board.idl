@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flatfish_ros_efuse_serial/msg/Board.msg
+// generated code does not contain a copyright notice
+
+
+module flatfish_ros_efuse_serial {
+  module msg {
+    typedef string string__8[8];
+    struct Board {
+      string name;
+
+      uint8 id;
+
+      string__8 channels;
+    };
+  };
+};

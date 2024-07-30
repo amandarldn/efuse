@@ -1,0 +1,39 @@
+[0.016s] Invoking command in '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial': CMAKE_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/opt/ros/humble LD_LIBRARY_PATH=/home/amandarln/ros_ws/install/ros_driver_base/lib:/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/amandarln/ros_ws/build/flatfish_ros_efuse_serial -- -j16 -l16
+[0.095s] [  0%] [32mBuilding CXX object CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o[0m
+[0.096s] [  0%] Built target flatfish_ros_efuse_serial__cpp
+[0.097s] [  1%] [32mBuilding CXX object CMakeFiles/EFuseNode.dir/src/EFuseNode.cpp.o[0m
+[0.099s] [ 12%] Built target flatfish_ros_efuse_serial__rosidl_generator_c
+[0.108s] [ 12%] Built target ament_cmake_python_copy_flatfish_ros_efuse_serial
+[0.135s] [ 23%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_c
+[0.139s] [ 35%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_cpp
+[0.140s] [ 46%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_introspection_c
+[0.141s] [ 57%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_cpp
+[0.143s] [ 69%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_cpp
+[0.146s] [ 80%] Built target flatfish_ros_efuse_serial__rosidl_typesupport_fastrtps_c
+[0.172s] In file included from [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseDriver.cpp:11[m[K:
+[0.172s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/EFuseDriver.hpp:18:10:[m[K [01;31m[Kfatal error: [m[Kros_driver_base/driver.hpp: No such file or directory
+[0.172s]    18 | #include [01;31m[K"ros_driver_base/driver.hpp"[m[K
+[0.172s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.173s] compilation terminated.
+[0.173s] [ 80%] Built target flatfish_ros_efuse_serial
+[0.173s] gmake[2]: *** [CMakeFiles/EFuseDriver.dir/build.make:76: CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o] Error 1
+[0.174s] gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/EFuseDriver.dir/all] Error 2
+[0.174s] gmake[1]: *** Waiting for unfinished jobs....
+[0.200s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.384s] In file included from [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:9[m[K:
+[0.384s] [01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/EFuseNode.hpp:23:10:[m[K [01;31m[Kfatal error: [m[Kflatfish_ros_efuse_serial/msg/board.hpp: No such file or directory
+[0.384s]    23 | #include [01;31m[K<flatfish_ros_efuse_serial/msg/board.hpp>[m[K
+[0.385s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.385s] compilation terminated.
+[0.387s] gmake[2]: *** [CMakeFiles/EFuseNode.dir/build.make:76: CMakeFiles/EFuseNode.dir/src/EFuseNode.cpp.o] Error 1
+[0.387s] gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/EFuseNode.dir/all] Error 2
+[0.434s] running egg_info
+[0.435s] writing flatfish_ros_efuse_serial.egg-info/PKG-INFO
+[0.435s] writing dependency_links to flatfish_ros_efuse_serial.egg-info/dependency_links.txt
+[0.435s] writing top-level names to flatfish_ros_efuse_serial.egg-info/top_level.txt
+[0.438s] reading manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'
+[0.439s] writing manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'
+[0.472s] [ 81%] Built target ament_cmake_python_build_flatfish_ros_efuse_serial_egg
+[1.806s] [ 81%] Built target flatfish_ros_efuse_serial__py
+[1.808s] gmake: *** [Makefile:146: all] Error 2
+[1.812s] Invoked command in '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial' returned '2': CMAKE_PREFIX_PATH=/home/amandarln/ros_ws/install/ros_driver_base:/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/opt/ros/humble LD_LIBRARY_PATH=/home/amandarln/ros_ws/install/ros_driver_base/lib:/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/amandarln/ros_ws/build/flatfish_ros_efuse_serial -- -j16 -l16

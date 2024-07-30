@@ -1,0 +1,1 @@
+/usr/bin/c++  -O0 -ggdb -g -pthread -mtune=native CMakeFiles/test_udp_read.dir/test/test_udp_read.cpp.o -o test_udp_read  -Wl,-rpath,/home/amandarln/ros_ws/build/ros_driver_base libros_driver_base.so 

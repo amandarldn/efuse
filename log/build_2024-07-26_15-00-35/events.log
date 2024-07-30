@@ -1,0 +1,453 @@
+[0.000000] (-) TimerEvent: {}
+[0.001051] (ros_driver_base) JobQueued: {'identifier': 'ros_driver_base', 'dependencies': OrderedDict()}
+[0.001231] (flatfish_ros_efuse_serial) JobQueued: {'identifier': 'flatfish_ros_efuse_serial', 'dependencies': OrderedDict([('ros_driver_base', '/home/amandarln/ros_ws/install/ros_driver_base')])}
+[0.001279] (ros_driver_base) JobStarted: {'identifier': 'ros_driver_base'}
+[0.011475] (ros_driver_base) JobProgress: {'identifier': 'ros_driver_base', 'progress': 'cmake'}
+[0.011895] (ros_driver_base) Command: {'cmd': ['/usr/bin/cmake', '/home/amandarln/ros_ws/src/ros_driver_base', '-DCMAKE_EXPORT_COMPILE_COMMANDS=1', '-DCMAKE_INSTALL_PREFIX=/home/amandarln/ros_ws/install/ros_driver_base'], 'cwd': '/home/amandarln/ros_ws/build/ros_driver_base', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amandarln'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/lib:/home/amandarln/ros_ws/install/ros_driver_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amandarln'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1418'), ('SYSTEMD_EXEC_PID', '1566'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6943'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amandarln/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amandarln'), ('JOURNAL_STREAM', '8:28102'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amandarln'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amandarln/.local/bin:/opt/ros/humble/bin:/home/amandarln/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amandarln/.local/bin:/home/amandarln/.local/bin'), ('SESSION_MANAGER', 'local/amandarln-Nitro-AN515-57:@/tmp/.ICE-unix/1544,unix/amandarln-Nitro-AN515-57:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'acbc9979608d478fad43ac7ced57c415'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8V4ER2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-51c3191532.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amandarln/ros_ws/build/ros_driver_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble')]), 'shell': False}
+[0.081448] (ros_driver_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099613] (-) TimerEvent: {}
+[0.153097] (ros_driver_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.160565] (ros_driver_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199801] (-) TimerEvent: {}
+[0.252766] (ros_driver_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.260169] (ros_driver_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.260478] (ros_driver_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.260946] (ros_driver_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.263972] (ros_driver_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299925] (-) TimerEvent: {}
+[0.378766] (ros_driver_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.393005] (ros_driver_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.393553] (ros_driver_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.394814] (ros_driver_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399440] (ros_driver_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400014] (-) TimerEvent: {}
+[0.500502] (-) TimerEvent: {}
+[0.592061] (ros_driver_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600625] (-) TimerEvent: {}
+[0.683407] (ros_driver_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.685093] (ros_driver_base) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.9 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.698615] (ros_driver_base) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: unit_test_framework system \n'}
+[0.700799] (-) TimerEvent: {}
+[0.801341] (-) TimerEvent: {}
+[0.829561] (ros_driver_base) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.832493] (ros_driver_base) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901463] (-) TimerEvent: {}
+[0.916095] (ros_driver_base) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.916502] (ros_driver_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001689] (-) TimerEvent: {}
+[1.022542] (ros_driver_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.023952] (ros_driver_base) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.028963] (ros_driver_base) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.034340] (ros_driver_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.034747] (ros_driver_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/amandarln/ros_ws/src/ros_driver_base/test/include;$<BUILD_INTERFACE:/home/amandarln/ros_ws/src/ros_driver_base/include>\n'}
+[1.034863] (ros_driver_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.037062] (ros_driver_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.042098] (ros_driver_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.042293] (ros_driver_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.043184] (ros_driver_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.045182] (ros_driver_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.062443] (ros_driver_base) StdoutLine: {'line': b'-- Generating done\n'}
+[1.064144] (ros_driver_base) StdoutLine: {'line': b'-- Build files have been written to: /home/amandarln/ros_ws/build/ros_driver_base\n'}
+[1.070157] (ros_driver_base) CommandEnded: {'returncode': 0}
+[1.072296] (ros_driver_base) JobProgress: {'identifier': 'ros_driver_base', 'progress': 'build'}
+[1.072333] (ros_driver_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amandarln/ros_ws/build/ros_driver_base', '--', '-j16', '-l16'], 'cwd': '/home/amandarln/ros_ws/build/ros_driver_base', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amandarln'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/lib:/home/amandarln/ros_ws/install/ros_driver_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amandarln'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1418'), ('SYSTEMD_EXEC_PID', '1566'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6943'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amandarln/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amandarln'), ('JOURNAL_STREAM', '8:28102'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amandarln'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amandarln/.local/bin:/opt/ros/humble/bin:/home/amandarln/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amandarln/.local/bin:/home/amandarln/.local/bin'), ('SESSION_MANAGER', 'local/amandarln-Nitro-AN515-57:@/tmp/.ICE-unix/1544,unix/amandarln-Nitro-AN515-57:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'acbc9979608d478fad43ac7ced57c415'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8V4ER2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-51c3191532.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amandarln/ros_ws/build/ros_driver_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble')]), 'shell': False}
+[1.082682] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -S/home/amandarln/ros_ws/src/ros_driver_base -B/home/amandarln/ros_ws/build/ros_driver_base --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[1.093253] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/amandarln/ros_ws/build/ros_driver_base/CMakeFiles /home/amandarln/ros_ws/build/ros_driver_base//CMakeFiles/progress.marks\n'}
+[1.100720] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/Makefile2 all\n'}
+[1.101758] (-) TimerEvent: {}
+[1.102428] (ros_driver_base) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.102557] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ros_driver_base.dir/build.make CMakeFiles/ros_driver_base.dir/depend\n'}
+[1.102705] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend\n'}
+[1.102841] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend\n'}
+[1.104609] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.105053] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base/CMakeFiles/ros_driver_base.dir/DependInfo.cmake --color=\n'}
+[1.105214] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.105322] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/amandarln/ros_ws/src/ros_driver_base /opt/ros/humble/src/gtest_vendor /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base/gtest /home/amandarln/ros_ws/build/ros_driver_base/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=\n'}
+[1.105423] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.105503] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/amandarln/ros_ws/src/ros_driver_base /opt/ros/humble/src/gtest_vendor /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base/gtest /home/amandarln/ros_ws/build/ros_driver_base/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=\n'}
+[1.116491] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.116906] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.117150] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.117285] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/ros_driver_base.dir/build.make CMakeFiles/ros_driver_base.dir/build\n'}
+[1.117411] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build\n'}
+[1.117539] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build\n'}
+[1.118452] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.118600] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.118846] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[1.129483] (ros_driver_base) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/ros_driver_base.dir/src/exceptions.cpp.o\x1b[0m\n'}
+[1.129839] (ros_driver_base) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/ros_driver_base.dir/src/driver.cpp.o\x1b[0m\n'}
+[1.130060] (ros_driver_base) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.130345] (ros_driver_base) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ros_driver_base.dir/src/tcp_driver.cpp.o\x1b[0m\n'}
+[1.130733] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/ros_driver_base.dir/src/exceptions.cpp.o -MF CMakeFiles/ros_driver_base.dir/src/exceptions.cpp.o.d -o CMakeFiles/ros_driver_base.dir/src/exceptions.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/exceptions.cpp\n'}
+[1.130984] (ros_driver_base) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ros_driver_base.dir/src/timeout.cpp.o\x1b[0m\n'}
+[1.131168] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/ros_driver_base.dir/src/driver.cpp.o -MF CMakeFiles/ros_driver_base.dir/src/driver.cpp.o.d -o CMakeFiles/ros_driver_base.dir/src/driver.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/driver.cpp\n'}
+[1.131365] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base/gtest && /usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -MF CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc\n'}
+[1.131902] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/ros_driver_base.dir/src/tcp_driver.cpp.o -MF CMakeFiles/ros_driver_base.dir/src/tcp_driver.cpp.o.d -o CMakeFiles/ros_driver_base.dir/src/tcp_driver.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/tcp_driver.cpp\n'}
+[1.132386] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/ros_driver_base.dir/src/timeout.cpp.o -MF CMakeFiles/ros_driver_base.dir/src/timeout.cpp.o.d -o CMakeFiles/ros_driver_base.dir/src/timeout.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/timeout.cpp\n'}
+[1.132665] (ros_driver_base) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.132829] (ros_driver_base) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_driver_base.dir/src/bus.cpp.o\x1b[0m\n'}
+[1.132968] (ros_driver_base) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_driver_base.dir/src/io_stream.cpp.o\x1b[0m\n'}
+[1.133518] (ros_driver_base) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_driver_base.dir/src/test_stream.cpp.o\x1b[0m\n'}
+[1.133734] (ros_driver_base) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_driver_base.dir/src/io_listener.cpp.o\x1b[0m\n'}
+[1.134204] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/ros_driver_base.dir/src/bus.cpp.o -MF CMakeFiles/ros_driver_base.dir/src/bus.cpp.o.d -o CMakeFiles/ros_driver_base.dir/src/bus.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/bus.cpp\n'}
+[1.134365] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base/gtest && /usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include -O0 -ggdb -g -pthread -mtune=native -fPIC -Wno-missing-field-initializers -Werror -Wextra -Wpedantic -Wno-null-dereference -std=gnu++14 -MD -MT gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -MF CMakeFiles/gtest.dir/src/gtest-all.cc.o.d -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /opt/ros/humble/src/gtest_vendor/src/gtest-all.cc\n'}
+[1.134637] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/ros_driver_base.dir/src/test_stream.cpp.o -MF CMakeFiles/ros_driver_base.dir/src/test_stream.cpp.o.d -o CMakeFiles/ros_driver_base.dir/src/test_stream.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/test_stream.cpp\n'}
+[1.134978] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/ros_driver_base.dir/src/io_listener.cpp.o -MF CMakeFiles/ros_driver_base.dir/src/io_listener.cpp.o.d -o CMakeFiles/ros_driver_base.dir/src/io_listener.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/io_listener.cpp\n'}
+[1.135210] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -Dros_driver_base_EXPORTS -I/home/amandarln/ros_ws/src/ros_driver_base/include -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -O0 -ggdb -g -pthread -mtune=native -fPIC -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/ros_driver_base.dir/src/io_stream.cpp.o -MF CMakeFiles/ros_driver_base.dir/src/io_stream.cpp.o.d -o CMakeFiles/ros_driver_base.dir/src/io_stream.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/src/io_stream.cpp\n'}
+[1.201906] (-) TimerEvent: {}
+[1.302355] (-) TimerEvent: {}
+[1.402811] (-) TimerEvent: {}
+[1.503285] (-) TimerEvent: {}
+[1.603944] (-) TimerEvent: {}
+[1.704368] (-) TimerEvent: {}
+[1.804810] (-) TimerEvent: {}
+[1.905279] (-) TimerEvent: {}
+[2.005812] (-) TimerEvent: {}
+[2.071605] (ros_driver_base) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[2.072834] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base/gtest && /usr/bin/cmake -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake\n'}
+[2.084586] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base/gtest && /usr/bin/cmake -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=1\n'}
+[2.096530] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/ar qc libgtest_main.a CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\n'}
+[2.101479] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/ranlib libgtest_main.a\n'}
+[2.105880] (-) TimerEvent: {}
+[2.107246] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.118754] (ros_driver_base) StdoutLine: {'line': b'[ 40%] Built target gtest_main\n'}
+[2.206020] (-) TimerEvent: {}
+[2.306381] (-) TimerEvent: {}
+[2.406740] (-) TimerEvent: {}
+[2.507228] (-) TimerEvent: {}
+[2.607687] (-) TimerEvent: {}
+[2.708140] (-) TimerEvent: {}
+[2.808487] (-) TimerEvent: {}
+[2.846355] (ros_driver_base) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libros_driver_base.so\x1b[0m\n'}
+[2.847478] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/ros_driver_base.dir/link.txt --verbose=1\n'}
+[2.854995] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -fPIC  -O0 -ggdb -g -pthread -mtune=native -shared -Wl,-soname,libros_driver_base.so -o libros_driver_base.so CMakeFiles/ros_driver_base.dir/src/bus.cpp.o CMakeFiles/ros_driver_base.dir/src/driver.cpp.o CMakeFiles/ros_driver_base.dir/src/exceptions.cpp.o CMakeFiles/ros_driver_base.dir/src/io_listener.cpp.o CMakeFiles/ros_driver_base.dir/src/io_stream.cpp.o CMakeFiles/ros_driver_base.dir/src/tcp_driver.cpp.o CMakeFiles/ros_driver_base.dir/src/test_stream.cpp.o CMakeFiles/ros_driver_base.dir/src/timeout.cpp.o \n'}
+[2.908603] (-) TimerEvent: {}
+[2.955446] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.964793] (ros_driver_base) StdoutLine: {'line': b'[ 44%] Built target ros_driver_base\n'}
+[2.965990] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_driver.dir/build.make CMakeFiles/test_driver.dir/depend\n'}
+[2.966299] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_tcp_read.dir/build.make CMakeFiles/test_tcp_read.dir/depend\n'}
+[2.966876] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_tcp_write.dir/build.make CMakeFiles/test_tcp_write.dir/depend\n'}
+[2.967171] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_udp_read.dir/build.make CMakeFiles/test_udp_read.dir/depend\n'}
+[2.967427] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_udp_write.dir/build.make CMakeFiles/test_udp_write.dir/depend\n'}
+[2.967595] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.967717] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base/CMakeFiles/test_driver.dir/DependInfo.cmake --color=\n'}
+[2.967796] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.967867] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base/CMakeFiles/test_tcp_read.dir/DependInfo.cmake --color=\n'}
+[2.968452] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.968611] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base/CMakeFiles/test_tcp_write.dir/DependInfo.cmake --color=\n'}
+[2.968780] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.968868] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base/CMakeFiles/test_udp_read.dir/DependInfo.cmake --color=\n'}
+[2.969209] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.969287] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base/CMakeFiles/test_udp_write.dir/DependInfo.cmake --color=\n'}
+[2.978272] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.978598] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.978817] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.978939] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_driver.dir/build.make CMakeFiles/test_driver.dir/build\n'}
+[2.979049] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_tcp_read.dir/build.make CMakeFiles/test_tcp_read.dir/build\n'}
+[2.979127] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_tcp_write.dir/build.make CMakeFiles/test_tcp_write.dir/build\n'}
+[2.979357] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.979529] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_udp_read.dir/build.make CMakeFiles/test_udp_read.dir/build\n'}
+[2.979958] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.980265] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_udp_write.dir/build.make CMakeFiles/test_udp_write.dir/build\n'}
+[2.980489] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.980646] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.980787] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.981214] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.982377] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[2.991161] (ros_driver_base) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/test_driver.dir/test/test_driver.cpp.o\x1b[0m\n'}
+[2.991774] (ros_driver_base) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/test_driver.dir/test/suite.cpp.o\x1b[0m\n'}
+[2.992048] (ros_driver_base) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/test_tcp_read.dir/test/test_tcp_read.cpp.o\x1b[0m\n'}
+[2.992341] (ros_driver_base) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/test_udp_read.dir/test/test_udp_read.cpp.o\x1b[0m\n'}
+[2.992490] (ros_driver_base) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/test_driver.dir/test/test_test_stream.cpp.o\x1b[0m\n'}
+[2.992755] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/test_driver.dir/test/test_driver.cpp.o -MF CMakeFiles/test_driver.dir/test/test_driver.cpp.o.d -o CMakeFiles/test_driver.dir/test/test_driver.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_driver.cpp\n'}
+[2.992956] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/test_tcp_read.dir/test/test_tcp_read.cpp.o -MF CMakeFiles/test_tcp_read.dir/test/test_tcp_read.cpp.o.d -o CMakeFiles/test_tcp_read.dir/test/test_tcp_read.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_tcp_read.cpp\n'}
+[2.993241] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/test_driver.dir/test/suite.cpp.o -MF CMakeFiles/test_driver.dir/test/suite.cpp.o.d -o CMakeFiles/test_driver.dir/test/suite.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/suite.cpp\n'}
+[2.993521] (ros_driver_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/test_tcp_write.dir/test/test_tcp_write.cpp.o\x1b[0m\n'}
+[2.993870] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/test_driver.dir/test/test_test_stream.cpp.o -MF CMakeFiles/test_driver.dir/test/test_test_stream.cpp.o.d -o CMakeFiles/test_driver.dir/test/test_test_stream.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_test_stream.cpp\n'}
+[2.994191] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/test_udp_read.dir/test/test_udp_read.cpp.o -MF CMakeFiles/test_udp_read.dir/test/test_udp_read.cpp.o.d -o CMakeFiles/test_udp_read.dir/test/test_udp_read.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_udp_read.cpp\n'}
+[2.995205] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/test_tcp_write.dir/test/test_tcp_write.cpp.o -MF CMakeFiles/test_tcp_write.dir/test/test_tcp_write.cpp.o.d -o CMakeFiles/test_tcp_write.dir/test/test_tcp_write.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_tcp_write.cpp\n'}
+[2.996052] (ros_driver_base) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/test_udp_write.dir/test/test_udp_write.cpp.o\x1b[0m\n'}
+[2.997336] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/test_udp_write.dir/test/test_udp_write.cpp.o -MF CMakeFiles/test_udp_write.dir/test/test_udp_write.cpp.o.d -o CMakeFiles/test_udp_write.dir/test/test_udp_write.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_udp_write.cpp\n'}
+[3.008725] (-) TimerEvent: {}
+[3.109132] (-) TimerEvent: {}
+[3.209556] (-) TimerEvent: {}
+[3.309975] (-) TimerEvent: {}
+[3.410410] (-) TimerEvent: {}
+[3.464928] (ros_driver_base) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable test_tcp_read\x1b[0m\n'}
+[3.465991] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/test_tcp_read.dir/link.txt --verbose=1\n'}
+[3.472650] (ros_driver_base) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable test_udp_write\x1b[0m\n'}
+[3.473712] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/test_udp_write.dir/link.txt --verbose=1\n'}
+[3.474133] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -O0 -ggdb -g -pthread -mtune=native CMakeFiles/test_tcp_read.dir/test/test_tcp_read.cpp.o -o test_tcp_read  -Wl,-rpath,/home/amandarln/ros_ws/build/ros_driver_base libros_driver_base.so \n'}
+[3.483811] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -O0 -ggdb -g -pthread -mtune=native CMakeFiles/test_udp_write.dir/test/test_udp_write.cpp.o -o test_udp_write  -Wl,-rpath,/home/amandarln/ros_ws/build/ros_driver_base libros_driver_base.so \n'}
+[3.510556] (-) TimerEvent: {}
+[3.560331] (ros_driver_base) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable test_tcp_write\x1b[0m\n'}
+[3.561416] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/test_tcp_write.dir/link.txt --verbose=1\n'}
+[3.570393] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -O0 -ggdb -g -pthread -mtune=native CMakeFiles/test_tcp_write.dir/test/test_tcp_write.cpp.o -o test_tcp_write  -Wl,-rpath,/home/amandarln/ros_ws/build/ros_driver_base libros_driver_base.so \n'}
+[3.576027] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[3.582186] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[3.585924] (ros_driver_base) StdoutLine: {'line': b'[ 81%] Built target test_tcp_read\n'}
+[3.592378] (ros_driver_base) StdoutLine: {'line': b'[ 81%] Built target test_udp_write\n'}
+[3.610689] (-) TimerEvent: {}
+[3.665602] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[3.672144] (ros_driver_base) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test_udp_read\x1b[0m\n'}
+[3.673252] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/test_udp_read.dir/link.txt --verbose=1\n'}
+[3.675053] (ros_driver_base) StdoutLine: {'line': b'[ 85%] Built target test_tcp_write\n'}
+[3.681734] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -O0 -ggdb -g -pthread -mtune=native CMakeFiles/test_udp_read.dir/test/test_udp_read.cpp.o -o test_udp_read  -Wl,-rpath,/home/amandarln/ros_ws/build/ros_driver_base libros_driver_base.so \n'}
+[3.710836] (-) TimerEvent: {}
+[3.768110] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[3.778280] (ros_driver_base) StdoutLine: {'line': b'[ 85%] Built target test_udp_read\n'}
+[3.810963] (-) TimerEvent: {}
+[3.911388] (-) TimerEvent: {}
+[4.011792] (-) TimerEvent: {}
+[4.112174] (-) TimerEvent: {}
+[4.212521] (-) TimerEvent: {}
+[4.312860] (-) TimerEvent: {}
+[4.413248] (-) TimerEvent: {}
+[4.513667] (-) TimerEvent: {}
+[4.614127] (-) TimerEvent: {}
+[4.714482] (-) TimerEvent: {}
+[4.815022] (-) TimerEvent: {}
+[4.908730] (ros_driver_base) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable test_driver\x1b[0m\n'}
+[4.909747] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/test_driver.dir/link.txt --verbose=1\n'}
+[4.915180] (-) TimerEvent: {}
+[4.917190] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -O0 -ggdb -g -pthread -mtune=native CMakeFiles/test_driver.dir/test/suite.cpp.o CMakeFiles/test_driver.dir/test/test_driver.cpp.o CMakeFiles/test_driver.dir/test/test_test_stream.cpp.o -o test_driver  -Wl,-rpath,/home/amandarln/ros_ws/build/ros_driver_base: libros_driver_base.so /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0 \n'}
+[5.015424] (-) TimerEvent: {}
+[5.020533] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[5.036333] (ros_driver_base) StdoutLine: {'line': b'[ 88%] Built target test_driver\n'}
+[5.115571] (-) TimerEvent: {}
+[5.216023] (-) TimerEvent: {}
+[5.316462] (-) TimerEvent: {}
+[5.416841] (-) TimerEvent: {}
+[5.436373] (ros_driver_base) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.437640] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base/gtest && /usr/bin/cmake -P CMakeFiles/gtest.dir/cmake_clean_target.cmake\n'}
+[5.449028] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base/gtest && /usr/bin/cmake -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=1\n'}
+[5.456767] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/ar qc libgtest.a CMakeFiles/gtest.dir/src/gtest-all.cc.o\n'}
+[5.475928] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/ranlib libgtest.a\n'}
+[5.500355] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[5.508610] (ros_driver_base) StdoutLine: {'line': b'[ 92%] Built target gtest\n'}
+[5.509641] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_test_stream_gtest.dir/build.make CMakeFiles/test_test_stream_gtest.dir/depend\n'}
+[5.511259] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[5.511537] (ros_driver_base) StdoutLine: {'line': b'cd /home/amandarln/ros_ws/build/ros_driver_base && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/src/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base /home/amandarln/ros_ws/build/ros_driver_base/CMakeFiles/test_test_stream_gtest.dir/DependInfo.cmake --color=\n'}
+[5.516932] (-) TimerEvent: {}
+[5.520025] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[5.520415] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/gmake  -f CMakeFiles/test_test_stream_gtest.dir/build.make CMakeFiles/test_test_stream_gtest.dir/build\n'}
+[5.521283] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[5.529335] (ros_driver_base) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/test_test_stream_gtest.dir/test/test_stream_gtest.cpp.o\x1b[0m\n'}
+[5.530401] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -I/home/amandarln/ros_ws/src/ros_driver_base/test/include -I/home/amandarln/ros_ws/src/ros_driver_base/include -isystem /opt/ros/humble/src/gtest_vendor/include -O0 -ggdb -g -pthread -mtune=native -Werror -Wextra -Wpedantic -std=gnu++14 -MD -MT CMakeFiles/test_test_stream_gtest.dir/test/test_stream_gtest.cpp.o -MF CMakeFiles/test_test_stream_gtest.dir/test/test_stream_gtest.cpp.o.d -o CMakeFiles/test_test_stream_gtest.dir/test/test_stream_gtest.cpp.o -c /home/amandarln/ros_ws/src/ros_driver_base/test/test_stream_gtest.cpp\n'}
+[5.617089] (-) TimerEvent: {}
+[5.717561] (-) TimerEvent: {}
+[5.818099] (-) TimerEvent: {}
+[5.918498] (-) TimerEvent: {}
+[6.019043] (-) TimerEvent: {}
+[6.119606] (-) TimerEvent: {}
+[6.220168] (-) TimerEvent: {}
+[6.320534] (-) TimerEvent: {}
+[6.420883] (-) TimerEvent: {}
+[6.521299] (-) TimerEvent: {}
+[6.621805] (-) TimerEvent: {}
+[6.648664] (ros_driver_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_test_stream_gtest\x1b[0m\n'}
+[6.649741] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/test_test_stream_gtest.dir/link.txt --verbose=1\n'}
+[6.656280] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/c++  -O0 -ggdb -g -pthread -mtune=native CMakeFiles/test_test_stream_gtest.dir/test/test_stream_gtest.cpp.o -o test_test_stream_gtest  -Wl,-rpath,/home/amandarln/ros_ws/build/ros_driver_base gtest/libgtest_main.a gtest/libgtest.a libros_driver_base.so -pthread \n'}
+[6.721929] (-) TimerEvent: {}
+[6.810267] (ros_driver_base) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[6.818001] (ros_driver_base) StdoutLine: {'line': b'[100%] Built target test_test_stream_gtest\n'}
+[6.818745] (ros_driver_base) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/amandarln/ros_ws/build/ros_driver_base'\n"}
+[6.818980] (ros_driver_base) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/amandarln/ros_ws/build/ros_driver_base/CMakeFiles 0\n'}
+[6.822114] (-) TimerEvent: {}
+[6.829600] (ros_driver_base) CommandEnded: {'returncode': 0}
+[6.922290] (-) TimerEvent: {}
+[6.936834] (ros_driver_base) JobProgress: {'identifier': 'ros_driver_base', 'progress': 'install'}
+[6.950629] (ros_driver_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amandarln/ros_ws/build/ros_driver_base'], 'cwd': '/home/amandarln/ros_ws/build/ros_driver_base', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amandarln'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/lib:/home/amandarln/ros_ws/install/ros_driver_base/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amandarln'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1418'), ('SYSTEMD_EXEC_PID', '1566'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6943'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amandarln/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amandarln'), ('JOURNAL_STREAM', '8:28102'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amandarln'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amandarln/.local/bin:/opt/ros/humble/bin:/home/amandarln/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amandarln/.local/bin:/home/amandarln/.local/bin'), ('SESSION_MANAGER', 'local/amandarln-Nitro-AN515-57:@/tmp/.ICE-unix/1544,unix/amandarln-Nitro-AN515-57:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'acbc9979608d478fad43ac7ced57c415'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8V4ER2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-51c3191532.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amandarln/ros_ws/build/ros_driver_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble')]), 'shell': False}
+[6.961366] (ros_driver_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.961753] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/environment/library_path.sh\n'}
+[6.961849] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/environment/library_path.dsv\n'}
+[6.961970] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ament_index/resource_index/package_run_dependencies/ros_driver_base\n'}
+[6.962099] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ament_index/resource_index/parent_prefix_path/ros_driver_base\n'}
+[6.962180] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/environment/ament_prefix_path.sh\n'}
+[6.962287] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/environment/ament_prefix_path.dsv\n'}
+[6.962399] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/environment/path.sh\n'}
+[6.962493] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/environment/path.dsv\n'}
+[6.962597] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/local_setup.bash\n'}
+[6.962706] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/local_setup.sh\n'}
+[6.962812] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/local_setup.zsh\n'}
+[6.962920] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/local_setup.dsv\n'}
+[6.963028] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/package.dsv\n'}
+[6.963159] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ament_index/resource_index/packages/ros_driver_base\n'}
+[6.963308] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.963594] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.963888] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/cmake/ros_driver_baseConfig.cmake\n'}
+[6.963996] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/cmake/ros_driver_baseConfig-version.cmake\n'}
+[6.964112] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/package.xml\n'}
+[6.964253] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include\n'}
+[6.964352] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base\n'}
+[6.964439] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/mock_context_exception.hpp\n'}
+[6.964665] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/status.hpp\n'}
+[6.964782] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/bus_handler.hpp\n'}
+[6.964913] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/io_stream.hpp\n'}
+[6.964988] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/fd_stream.hpp\n'}
+[6.965061] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/test_ends_with_expectations_left_exception.hpp\n'}
+[6.965164] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/timeout.hpp\n'}
+[6.965295] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/test_stream.hpp\n'}
+[6.965377] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/file_guard.hpp\n'}
+[6.965459] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/tcp_driver.hpp\n'}
+[6.965539] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/driver.hpp\n'}
+[6.965650] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/bus.hpp\n'}
+[6.965728] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/parser.hpp\n'}
+[6.965804] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/io_listener.hpp\n'}
+[6.965886] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/runtime_exceptions.hpp\n'}
+[6.965993] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/include/ros_driver_base/udp_server_stream.hpp\n'}
+[6.966065] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/lib/libros_driver_base.so\n'}
+[6.967772] (ros_driver_base) StdoutLine: {'line': b'-- Installing: /home/amandarln/ros_ws/install/ros_driver_base/lib/ros_driver_base/test_driver\n'}
+[6.969326] (ros_driver_base) StdoutLine: {'line': b'-- Set runtime path of "/home/amandarln/ros_ws/install/ros_driver_base/lib/ros_driver_base/test_driver" to ""\n'}
+[6.971405] (ros_driver_base) CommandEnded: {'returncode': 0}
+[7.022381] (-) TimerEvent: {}
+[7.094674] (ros_driver_base) JobEnded: {'identifier': 'ros_driver_base', 'rc': 0}
+[7.095378] (flatfish_ros_efuse_serial) JobStarted: {'identifier': 'flatfish_ros_efuse_serial'}
+[7.104757] (flatfish_ros_efuse_serial) JobProgress: {'identifier': 'flatfish_ros_efuse_serial', 'progress': 'cmake'}
+[7.105100] (flatfish_ros_efuse_serial) Command: {'cmd': ['/usr/bin/cmake', '/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial', '-DCMAKE_EXPORT_COMPILE_COMMANDS=1', '-DCMAKE_INSTALL_PREFIX=/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial'], 'cwd': '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amandarln'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amandarln/ros_ws/install/ros_driver_base/lib:/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amandarln'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1418'), ('SYSTEMD_EXEC_PID', '1566'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6943'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amandarln/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amandarln'), ('JOURNAL_STREAM', '8:28102'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amandarln'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amandarln/.local/bin:/opt/ros/humble/bin:/home/amandarln/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amandarln/.local/bin:/home/amandarln/.local/bin'), ('SESSION_MANAGER', 'local/amandarln-Nitro-AN515-57:@/tmp/.ICE-unix/1544,unix/amandarln-Nitro-AN515-57:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'acbc9979608d478fad43ac7ced57c415'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8V4ER2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-51c3191532.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amandarln/ros_ws/install/ros_driver_base:/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/opt/ros/humble')]), 'shell': False}
+[7.122501] (-) TimerEvent: {}
+[7.170830] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[7.222700] (-) TimerEvent: {}
+[7.232181] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.242604] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.322816] (-) TimerEvent: {}
+[7.340622] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.351374] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.352069] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.352573] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.356325] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.422977] (-) TimerEvent: {}
+[7.461085] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.470672] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.470962] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.472082] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.475067] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.523189] (-) TimerEvent: {}
+[7.623733] (-) TimerEvent: {}
+[7.641425] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.723981] (-) TimerEvent: {}
+[7.728751] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.771681] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.776701] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.784365] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.800120] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.819232] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.824099] (-) TimerEvent: {}
+[7.893155] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.895506] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.924199] (-) TimerEvent: {}
+[8.010530] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.024442] (-) TimerEvent: {}
+[8.044379] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.103229] (flatfish_ros_efuse_serial) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.114543] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.124555] (-) TimerEvent: {}
+[8.209207] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.209999] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.224675] (-) TimerEvent: {}
+[8.298367] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.300038] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.324913] (-) TimerEvent: {}
+[8.425412] (-) TimerEvent: {}
+[8.474005] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found ros_driver_base: 0.0.1 (/home/amandarln/ros_ws/install/ros_driver_base/share/ros_driver_base/cmake)\n'}
+[8.476521] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.525522] (-) TimerEvent: {}
+[8.625894] (-) TimerEvent: {}
+[8.726329] (-) TimerEvent: {}
+[8.821172] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.826414] (-) TimerEvent: {}
+[8.926811] (-) TimerEvent: {}
+[9.027348] (-) TimerEvent: {}
+[9.127795] (-) TimerEvent: {}
+[9.175566] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.228004] (-) TimerEvent: {}
+[9.308287] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.328105] (-) TimerEvent: {}
+[9.331495] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[9.332806] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.366109] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[9.366360] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.366475] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.366588] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[9.389094] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.426472] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.428191] (-) TimerEvent: {}
+[9.447962] (flatfish_ros_efuse_serial) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[9.448841] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include>\n'}
+[9.448992] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[9.449960] (flatfish_ros_efuse_serial) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.451962] (flatfish_ros_efuse_serial) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[9.452338] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[9.452894] (flatfish_ros_efuse_serial) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.455791] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.516495] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Generating done\n'}
+[9.519753] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'-- Build files have been written to: /home/amandarln/ros_ws/build/flatfish_ros_efuse_serial\n'}
+[9.528349] (-) TimerEvent: {}
+[9.534691] (flatfish_ros_efuse_serial) CommandEnded: {'returncode': 0}
+[9.535665] (flatfish_ros_efuse_serial) JobProgress: {'identifier': 'flatfish_ros_efuse_serial', 'progress': 'build'}
+[9.536307] (flatfish_ros_efuse_serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial', '--', '-j16', '-l16'], 'cwd': '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'amandarln'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amandarln/ros_ws/install/ros_driver_base/lib:/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amandarln'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1418'), ('SYSTEMD_EXEC_PID', '1566'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6943'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/amandarln/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amandarln'), ('JOURNAL_STREAM', '8:28102'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amandarln'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/amandarln/.local/bin:/opt/ros/humble/bin:/home/amandarln/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/amandarln/.local/bin:/home/amandarln/.local/bin'), ('SESSION_MANAGER', 'local/amandarln-Nitro-AN515-57:@/tmp/.ICE-unix/1544,unix/amandarln-Nitro-AN515-57:/tmp/.ICE-unix/1544'), ('INVOCATION_ID', 'acbc9979608d478fad43ac7ced57c415'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8V4ER2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-51c3191532.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/home/amandarln/ros_ws/install/ros_driver_base:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amandarln/ros_ws/build/flatfish_ros_efuse_serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/amandarln/ros_ws/install/ros_driver_base:/home/amandarln/ros_ws/install/flatfish_ros_efuse_serial:/opt/ros/humble')]), 'shell': False}
+[9.599865] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.619441] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o\x1b[0m\n'}
+[9.620704] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.628493] (-) TimerEvent: {}
+[9.632528] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/EFuseNode.dir/src/EFuseNode.cpp.o\x1b[0m\n'}
+[9.637136] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_flatfish_ros_efuse_serial\n'}
+[9.699074] (flatfish_ros_efuse_serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseDriver.cpp:11\x1b[m\x1b[K:\n'}
+[9.699608] (flatfish_ros_efuse_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/EFuseDriver.hpp:18:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kros_driver_base/driver.hpp: No such file or directory\n'}
+[9.699812] (flatfish_ros_efuse_serial) StderrLine: {'line': b'   18 | #include \x1b[01;31m\x1b[K"ros_driver_base/driver.hpp"\x1b[m\x1b[K\n'}
+[9.699961] (flatfish_ros_efuse_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.700094] (flatfish_ros_efuse_serial) StderrLine: {'line': b'compilation terminated.\n'}
+[9.701170] (flatfish_ros_efuse_serial) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/EFuseDriver.dir/build.make:76: CMakeFiles/EFuseDriver.dir/src/EFuseDriver.cpp.o] Error 1\n'}
+[9.701422] (flatfish_ros_efuse_serial) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/EFuseDriver.dir/all] Error 2\n'}
+[9.701525] (flatfish_ros_efuse_serial) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.728600] (-) TimerEvent: {}
+[9.734438] (flatfish_ros_efuse_serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:9\x1b[m\x1b[K:\n'}
+[9.734651] (flatfish_ros_efuse_serial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/include/flatfish_ros_efuse_serial/EFuseNode.hpp:18:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[9.734746] (flatfish_ros_efuse_serial) StderrLine: {'line': b'   18 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[9.734821] (flatfish_ros_efuse_serial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.734893] (flatfish_ros_efuse_serial) StderrLine: {'line': b'compilation terminated.\n'}
+[9.737095] (flatfish_ros_efuse_serial) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/EFuseNode.dir/build.make:76: CMakeFiles/EFuseNode.dir/src/EFuseNode.cpp.o] Error 1\n'}
+[9.737346] (flatfish_ros_efuse_serial) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:596: CMakeFiles/EFuseNode.dir/all] Error 2\n'}
+[9.828728] (-) TimerEvent: {}
+[9.929126] (-) TimerEvent: {}
+[9.976077] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'running egg_info\n'}
+[9.976808] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'creating flatfish_ros_efuse_serial.egg-info\n'}
+[9.977137] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'writing flatfish_ros_efuse_serial.egg-info/PKG-INFO\n'}
+[9.977483] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'writing dependency_links to flatfish_ros_efuse_serial.egg-info/dependency_links.txt\n'}
+[9.977619] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'writing top-level names to flatfish_ros_efuse_serial.egg-info/top_level.txt\n'}
+[9.977909] (flatfish_ros_efuse_serial) StdoutLine: {'line': b"writing manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'\n"}
+[9.980085] (flatfish_ros_efuse_serial) StdoutLine: {'line': b"reading manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'\n"}
+[9.980611] (flatfish_ros_efuse_serial) StdoutLine: {'line': b"writing manifest file 'flatfish_ros_efuse_serial.egg-info/SOURCES.txt'\n"}
+[10.011334] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_flatfish_ros_efuse_serial_egg\n'}
+[10.029298] (-) TimerEvent: {}
+[10.129698] (-) TimerEvent: {}
+[10.230022] (-) TimerEvent: {}
+[10.330324] (-) TimerEvent: {}
+[10.430658] (-) TimerEvent: {}
+[10.531188] (-) TimerEvent: {}
+[10.631695] (-) TimerEvent: {}
+[10.712912] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  2%] Built target flatfish_ros_efuse_serial__cpp\n'}
+[10.731851] (-) TimerEvent: {}
+[10.744112] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/msg/detail/cmd_channel__functions.c.o\x1b[0m\n'}
+[10.744768] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/srv/detail/default_power_up__functions.c.o\x1b[0m\n'}
+[10.746217] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/srv/detail/reset_board__functions.c.o\x1b[0m\n'}
+[10.746448] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/msg/detail/board__functions.c.o\x1b[0m\n'}
+[10.746708] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/msg/detail/board_array__functions.c.o\x1b[0m\n'}
+[10.746961] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/msg/detail/status_board__functions.c.o\x1b[0m\n'}
+[10.747107] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/msg/detail/status_channel__functions.c.o\x1b[0m\n'}
+[10.747876] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/srv/detail/set_channel_on__functions.c.o\x1b[0m\n'}
+[10.748045] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/msg/detail/status_board_array__functions.c.o\x1b[0m\n'}
+[10.749152] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/srv/detail/set_max_current__functions.c.o\x1b[0m\n'}
+[10.750326] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/flatfish_ros_efuse_serial__rosidl_generator_c.dir/rosidl_generator_c/flatfish_ros_efuse_serial/srv/detail/set_channels_on__functions.c.o\x1b[0m\n'}
+[10.831954] (-) TimerEvent: {}
+[10.859249] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libflatfish_ros_efuse_serial__rosidl_generator_c.so\x1b[0m\n'}
+[10.906832] (flatfish_ros_efuse_serial) StdoutLine: {'line': b'[ 12%] Built target flatfish_ros_efuse_serial__rosidl_generator_c\n'}
+[10.907990] (flatfish_ros_efuse_serial) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.910606] (flatfish_ros_efuse_serial) CommandEnded: {'returncode': 2}
+[10.932052] (-) TimerEvent: {}
+[11.032409] (-) TimerEvent: {}
+[11.132862] (-) TimerEvent: {}
+[11.233250] (-) TimerEvent: {}
+[11.330514] (flatfish_ros_efuse_serial) JobEnded: {'identifier': 'flatfish_ros_efuse_serial', 'rc': 2}
+[11.333403] (-) TimerEvent: {}
+[11.341067] (-) EventReactorShutdown: {}

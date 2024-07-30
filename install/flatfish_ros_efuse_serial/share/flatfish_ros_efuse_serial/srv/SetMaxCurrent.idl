@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from flatfish_ros_efuse_serial/srv/SetMaxCurrent.srv
+// generated code does not contain a copyright notice
+
+
+module flatfish_ros_efuse_serial {
+  module srv {
+    struct SetMaxCurrent_Request {
+      int8 board;
+
+      int8 channel;
+
+      double value;
+    };
+    struct SetMaxCurrent_Response {
+      int8 error;
+    };
+  };
+};

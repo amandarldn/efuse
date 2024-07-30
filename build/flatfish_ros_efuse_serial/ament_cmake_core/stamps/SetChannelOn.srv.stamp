@@ -1,0 +1,5 @@
+int8 board
+int8 channel
+bool state
+---
+int8 error

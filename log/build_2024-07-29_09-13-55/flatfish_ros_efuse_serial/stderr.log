@@ -1,0 +1,32 @@
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::setChannelOnCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::SetChannelOn_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::SetChannelOn_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:114:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  114 | [01;35m[Kfish_ros_efuse_serial::srv::SetChannelOn::Response> response[m[K) {
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::setChannelsOnCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::SetChannelsOn_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::SetChannelsOn_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:121:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  121 | [01;35m[Kish_ros_efuse_serial::srv::SetChannelsOn::Response> response[m[K) {
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::setMaxCurrentCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::SetMaxCurrent_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::SetMaxCurrent_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:132:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  132 | [01;35m[Kish_ros_efuse_serial::srv::SetMaxCurrent::Response> response[m[K) {
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::defaultPowerUpCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::DefaultPowerUp_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::DefaultPowerUp_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:140:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  140 | [01;35m[Ksh_ros_efuse_serial::srv::DefaultPowerUp::Response> response[m[K) {
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:[m[K In member function ‘[01m[Kbool EFuseNode::resetBoardCallback(std::shared_ptr<flatfish_ros_efuse_serial::srv::ResetBoard_Request_<std::allocator<void> > >, std::shared_ptr<flatfish_ros_efuse_serial::srv::ResetBoard_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/EFuseNode.cpp:151:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  151 | [01;35m[Katfish_ros_efuse_serial::srv::ResetBoard::Response> response[m[K) {
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[01m[K/home/amandarln/ros_ws/src/flatfish_ros_efuse_serial/src/ExampleNode.cpp:8:10:[m[K [01;31m[Kfatal error: [m[KEFuseNode.hpp: No such file or directory
+    8 | #include [01;31m[K<EFuseNode.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ExampleNode.dir/build.make:76: CMakeFiles/ExampleNode.dir/src/ExampleNode.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:653: CMakeFiles/ExampleNode.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
